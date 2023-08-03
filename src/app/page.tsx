@@ -1,10 +1,13 @@
-import Image from 'next/image'
-import { Navbar } from './components/Navbar'
+import { Navbar } from "./components/Navbar";
+import { HeroSection } from "./components/HeroSection";
+import QrGenerateTabs from "./components/QrGenerateTabs";
 
 export default function Home() {
   return (
     <main className="">
-    <Navbar/>
+      {/* <Navbar /> */}
+      <HeroSection />
+      <QrGenerateTabs />
     </main>
-  )
+  );
 }
